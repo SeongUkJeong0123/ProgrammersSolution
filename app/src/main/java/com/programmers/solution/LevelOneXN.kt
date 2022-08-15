@@ -4,7 +4,7 @@ class levelOneXn {
 
 
     /**
-     *
+     * Programmers Level1
      * 함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴해야 합니다. 다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성해주세요.
      *
      *제한 조건
@@ -27,6 +27,6 @@ class levelOneXn {
       }*/
 
     //다른 사람이 작성한 코드 -> 람다식을 활용해 훨씬더 간결하게 작성하였다.
-    fun solution(x: Int, n: Int): LongArray = LongArray(n) { x.toLong() * (it + 1) }
+    fun levelOneXn(x: Int, n: Int): LongArray = LongArray(n) { x.toLong() * (it + 1) }
 
 }

@@ -9,18 +9,15 @@ fun levelOneStar(){
 
     val (a, b) = readLine()!!.split(' ').map(String::toInt)
 
-    if((a in 1..1000)&&(b in 1..1000)){
         for(i in 0..b.minus(1)){
             for(j in 0..a.minus(1)){
                 print("*")
             }
-            if(!i.equals(b.minus(1))){
+            if(i != b.minus(1)){
                 println()
             }
 
         }
-    }else {
-        print("1000이하인 자연수를 입력해 주세요")
-    }
+
 
 }
