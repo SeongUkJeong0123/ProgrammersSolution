@@ -15,7 +15,7 @@ fun harshad(x : Int): Boolean{
     for(i in arrIntSum.indices){
         sum+= arrIntSum[i].toInt()
     }
-
+//
     println(x % sum == 0)
     return x % sum == 0
 
