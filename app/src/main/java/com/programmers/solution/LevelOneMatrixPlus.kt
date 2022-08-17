@@ -11,7 +11,7 @@ import kotlin.coroutines.EmptyCoroutineContext.plus
 *행렬 arr1, arr2의 행과 열의 길이는 500을 넘지 않습니다.
 * */
 fun matrixPlus(arr1: Array<IntArray>, arr2: Array<IntArray>): Array<IntArray> {
-//
+
     //이중 포문과 배열의 범위가 중요, answer의 길이를 설정해주는것도 중요
     var answer = arrayOf<IntArray>()
     answer = arr1
