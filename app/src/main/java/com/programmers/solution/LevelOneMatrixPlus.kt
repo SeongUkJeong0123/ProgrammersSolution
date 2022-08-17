@@ -20,7 +20,7 @@ fun matrixPlus(arr1: Array<IntArray>, arr2: Array<IntArray>): Array<IntArray> {
            answer[i][j] = arr1[i][j].plus(arr2[i][j])
        }
    }
-
+//
     return answer
 
 }
