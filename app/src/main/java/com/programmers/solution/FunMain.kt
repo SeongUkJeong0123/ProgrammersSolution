@@ -2,6 +2,6 @@ package com.programmers.solution
 
 fun main(args : Array<String>){
 
-    harshad(10001)
+    makeString("try hello world")
 
 }
